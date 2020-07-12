@@ -132,7 +132,7 @@ export default () => {
           </div>
           <ul className="sns">
             <li>
-              <a href="">
+              <a href="https://twitter.com/miruoon" target="_blank">
                 <i className="fab fa-twitter"></i>
                 <span className="sr-only">Twitter</span>
               </a>
