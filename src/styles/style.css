@@ -51,9 +51,7 @@ svg {
 
 .nav,
 .catch h1,
-.skill h2,
-.detail p:first-of-type,
-.info .subtitle {
+.skill h2 {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
