@@ -20,10 +20,16 @@ export default () => {
                 <a href="#">TOP</a>
               </li>
               <li>
-                <a href="#">ABOUT</a>
+                <a href="#about">ABOUT</a>
               </li>
               <li>
-                <a href="#">SKILLS</a>
+                <a href="#skill">SKILLS</a>
+              </li>
+              <li>
+                <a href="#project">PROJECTS</a>
+              </li>
+              <li>
+                <a href="#">LINKS</a>
               </li>
             </ul>
           </nav>
@@ -41,7 +47,17 @@ export default () => {
           </h1>
         </div>
       </section>
-      <section className="food">
+      <section className="skill" id="about">
+        <div className="container">
+          <h2 className="bar">About</h2>
+          <p>
+            SIからWebエンジニアへの転職を目指しているものです。最近翻訳からですがOSS活動をはじめました。
+            <br />
+            今はフロントメインですが、バックエンドにも力を入れたい。
+          </p>
+        </div>
+      </section>
+      <section className="skill" id="skill">
         <div className="container">
           <h2 className="bar">Skills</h2>
           <div className="details">
@@ -49,28 +65,62 @@ export default () => {
               <h3>JavaScript</h3>
               {/* <p>FRUIT</p> */}
               <p>
-                甘くてすっぱくておいしい果実たち。
+                一番使っている言語です。
                 <br />
-                旬のフルーツを満喫します。
+                今はフロントメインですが、バックエンドにも力を入れたい。
+                <br />
+                (使用フレームワーク) React.js
               </p>
             </div>
             <div className="detail">
               <h3>Python</h3>
               {/* <p>GRAIN</p> */}
               <p>
-                食事の基本となる穀物。
+                一番好きな言語です。
                 <br />
-                毎日の活動のエネルギー源になります。
+                そろそろプロジェクトを作りたいところです。
+                <br />
+                標準関数を勉強中。
               </p>
             </div>
             <div className="detail">
-              <h3>飲み物</h3>
+              <h3>SQL</h3>
               {/* <p>BEVERAGE</p> */}
               <p>
-                リラックスするのに欠かせない飲み物。
+                Oracle、SQLServerの実務経験あり。
                 <br />
-                お気に入りの一杯はありますか？
+                基本は十分なレベルですが、初期構成はやったことはありません。
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="skill" id="project">
+        <div className="container">
+          <h2 className="bar">Projects</h2>
+          <div className="details">
+            <div className="detail">
+              <h3>Discord Music</h3>
+              {/* <p>FRUIT</p> */}
+              <p>
+                Discord.jsの勉強のために作成。
+                <br />
+                youtubeをBGMとして流す事ができます。
+              </p>
+            </div>
+            <div className="detail">
+              <h3>Qiita Stocks</h3>
+              {/* <p>GRAIN</p> */}
+              <p>
+                最新20記事を取得するサイトです。
+                <br />
+                そろそろメンテしなければと思っています。
+              </p>
+            </div>
+            <div className="detail">
+              <h3>Etc</h3>
+              {/* <p>GRAIN</p> */}
+              <p>Coming soon...</p>
             </div>
           </div>
         </div>
