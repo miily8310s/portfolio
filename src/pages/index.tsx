@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import "../styles/global.css"
 
 export default () => {
   return (
@@ -67,26 +68,68 @@ export default () => {
         <div className="container">
           <h2 className="bar">Projects</h2>
           <div className="details">
-            <div className="detail">
-              <h3>Discord Music</h3>
-              <p>
-                Discord.jsの勉強のために作成。
-                <br />
-                youtubeをBGMとして流す事ができます。
-              </p>
+            <div className="max-w-sm shadow-lg">
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://github.com/miily8310s/discord_music"
+                    target="_blank"
+                  >
+                    Discord Music Bot
+                  </a>
+                </div>
+                <p className="text-gray-700 text-base">
+                  Discord.jsの勉強のために作成。youtubeをBGMとして流す事ができます。
+                </p>
+              </div>
+              <div className="px-6 py-4">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #JavaScript
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #Discord.js
+                </span>
+              </div>
             </div>
-            <div className="detail">
-              <h3>Qiita Stocks</h3>
-              <p>
-                最新20記事を取得するサイトです。
-                <br />
-                そろそろメンテしなければと思っています。
-              </p>
+            <div className="max-w-sm shadow-lg">
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://github.com/miily8310s/QiitaStocks"
+                    target="_blank"
+                  >
+                    Qiita Stocks
+                  </a>
+                </div>
+                <p className="text-gray-700 text-base">
+                  Qiitaの最新20記事を取得するサイトです。そろそろメンテしなければと思っています。
+                </p>
+              </div>
+              <div className="px-6 py-4">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #JavaScript
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #React
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  #Bootstrap
+                </span>
+              </div>
             </div>
-            <div className="detail">
-              <h3>Etc</h3>
-              <p>Coming soon...</p>
-            </div>
+            {/* <div className="max-w-sm shadow-lg">
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">
+                  <a
+                    href="https://github.com/miily8310s/discord_music"
+                    target="_blank"
+                  >
+                    Etc
+                  </a>
+                </div>
+                <p className="text-gray-700 text-base">Coming soon...</p>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
