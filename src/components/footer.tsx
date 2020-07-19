@@ -5,8 +5,8 @@ import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 export default () => {
   return (
-    <footer className="footer">
-      <div className="container">
+    <footer className="flex items-center justify-between flex-wrap text-white bg-green-500 p-6">
+      <div className="flex items-center">
         <div className="site">
           <p>&#064;miruo's portfolio 2020</p>
         </div>

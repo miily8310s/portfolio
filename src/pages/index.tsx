@@ -19,7 +19,7 @@ export default () => {
           </h1>
         </div>
       </section>
-      <section className="skill" id="about">
+      <section className="skills" id="about">
         <div className="container">
           <h2 className="bar">About</h2>
           <p>
@@ -29,7 +29,7 @@ export default () => {
           </p>
         </div>
       </section>
-      <section className="skill" id="skill">
+      <section className="skills" id="skills">
         <div className="container">
           <h2 className="bar">Skills</h2>
           <div className="details">
@@ -64,7 +64,7 @@ export default () => {
           </div>
         </div>
       </section>
-      <section className="skill" id="project">
+      <section className="skill" id="projects">
         <div className="container">
           <h2 className="bar">Projects</h2>
           <div className="details">
@@ -79,7 +79,7 @@ export default () => {
                   </a>
                 </div>
                 <p className="text-gray-700 text-base">
-                  Discord.jsの勉強のために作成。youtubeをBGMとして流す事ができます。
+                  Discord.jsの勉強のために作成したDiscord用bot。youtubeをBGMとして流す事ができます。
                 </p>
               </div>
               <div className="px-6 py-4">
