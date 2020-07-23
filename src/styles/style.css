@@ -142,7 +142,7 @@ svg {
 
 @media (min-width: 768px) {
   .hero figure img {
-    height: 750px;
+    height: 650px;
   }
   .hero .catch h1 {
     font-size: 40px;
@@ -302,11 +302,13 @@ svg {
 
 .sns {
   display: flex;
-  padding-top: 30px;
   list-style: none;
   font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sns li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 10px;
 }

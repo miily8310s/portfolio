@@ -2,6 +2,8 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import "../styles/global.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 export default () => {
   return (
@@ -19,7 +21,7 @@ export default () => {
           </h1>
         </div>
       </section>
-      <section className="skills" id="about">
+      <section className="skill" id="about">
         <div className="container">
           <h2 className="bar">About</h2>
           <p>
@@ -29,7 +31,7 @@ export default () => {
           </p>
         </div>
       </section>
-      <section className="skills" id="skills">
+      {/* <section className="skills" id="skills">
         <div className="container">
           <h2 className="bar">Skills</h2>
           <div className="details">
@@ -63,12 +65,88 @@ export default () => {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="skill" id="skills">
+        <div className="container">
+          <h2 className="bar">Programming Language Skills</h2>
+          <div className="details">
+            <div className="md:px-16 md:w-full">
+              <div className="shadow overflow-hidden rounded border-b border-gray-200">
+                <table className="min-w-full bg-white">
+                  <thead className="bg-green-800 text-white">
+                    <tr>
+                      <th className="text-left py-3 px-4 uppercase font-semibold">
+                        Name
+                      </th>
+                      <th className="text-left py-3 px-4 uppercase font-semibold">
+                        Star Rating
+                      </th>
+                      <th className="text-left py-3 px-4 uppercase font-semibold">
+                        Framework
+                      </th>
+                      <th className="py-3 px-4 uppercase font-semibold">
+                        Work experience
+                      </th>
+                      <th className="py-3 px-4 uppercase font-semibold">
+                        Years Of Use
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700">
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">JavaScript</td>
+                      <td className="text-left py-3 px-4">★★★☆☆</td>
+                      <td className="text-left py-3 px-4">React / Vue.js</td>
+                      <td className="py-3 px-4">×</td>
+                      <td className="py-3 px-4">2 years</td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">TypeScript</td>
+                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">React</td>
+                      <td className="py-3 px-4">×</td>
+                      <td className="py-3 px-4">1 month</td>
+                    </tr>
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">Python</td>
+                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">Django</td>
+                      <td className="py-3 px-4">×</td>
+                      <td className="py-3 px-4">0.1 year</td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">Ruby</td>
+                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">Ruby on Rails</td>
+                      <td className="py-3 px-4">×</td>
+                      <td className="py-3 px-4">0.5 year</td>
+                    </tr>
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">Java</td>
+                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">Spring Framework</td>
+                      <td className="py-3 px-4">●</td>
+                      <td className="py-3 px-4">0.5 year</td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">VB.NET</td>
+                      <td className="text-left py-3 px-4">★★★☆☆</td>
+                      <td className="text-left py-3 px-4">-</td>
+                      <td className="py-3 px-4">●</td>
+                      <td className="py-3 px-4">1.2 year</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="skill" id="projects">
         <div className="container">
           <h2 className="bar">Projects</h2>
-          <div className="details">
-            <div className="max-w-sm shadow-lg">
+          <div className="flex flex-row">
+            <div className="max-w-sm shadow-lg m-6">
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">
                   <a
@@ -91,7 +169,7 @@ export default () => {
                 </span>
               </div>
             </div>
-            <div className="max-w-sm shadow-lg">
+            <div className="max-w-sm shadow-lg m-6">
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">
                   <a
@@ -117,20 +195,31 @@ export default () => {
                 </span>
               </div>
             </div>
-            {/* <div className="max-w-sm shadow-lg">
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
-                  <a
-                    href="https://github.com/miily8310s/discord_music"
-                    target="_blank"
-                  >
-                    Etc
-                  </a>
-                </div>
-                <p className="text-gray-700 text-base">Coming soon...</p>
-              </div>
-            </div> */}
           </div>
+        </div>
+      </section>
+      <section className="skill" id="contact">
+        <div className="container">
+          <h2 className="bar">Contact</h2>
+          <ul className="sns">
+            <li>
+              <a href="https://twitter.com/miruoon" target="_blank">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span> Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/miily8310s" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+                <span> Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://katanugramer.hatenablog.com/" target="_blank">
+                <span>Hatena Blog</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
       <Footer />
