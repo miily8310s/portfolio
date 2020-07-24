@@ -9,11 +9,8 @@ let year = today.getFullYear()
 export default () => {
   return (
     <footer className="text-center text-white bg-green-500 p-6">
-      {/* <div className="flex items-center">
-        <div className="site"> */}
       <p>&#064;miruo's portfolio {year}</p>
-      {/* </div>
-      </div> */}
+      <span>made by Gatsby.js</span>
     </footer>
   )
 }

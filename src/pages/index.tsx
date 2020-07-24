@@ -24,11 +24,30 @@ export default () => {
       <section className="skill" id="about">
         <div className="container">
           <h2 className="bar">About</h2>
-          <p>
-            SIからWebエンジニアへの転職を目指しているものです。最近翻訳からですがOSS活動をはじめました。
-            <br />
-            今はフロントメインですが、バックエンドにも力を入れたい。
-          </p>
+          <div className="container mx-auto px-4">
+            <div className="inline-grid max-w-xs max-w-xs bg-green-800 rounded-lg border shadow-lg pb-6 lg:pb-0">
+              <div className="w-full">
+                <img
+                  src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
+                  alt="image"
+                  className="h-64 lg:h-full object-cover object-center w-full"
+                ></img>
+              </div>
+
+              <div className="w-full p-4">
+                <div className="inline-grid">
+                  <p className="work-sans font-semibold text-xl text-white text-left">
+                    miruo
+                  </p>
+                  <p className="raleway text-sm my-4 text-white text-left">
+                    SIからWebエンジニアへの転職を目指しているものです。最近翻訳からですがOSS活動をはじめました。
+                    今はフロントメインですが、バックエンドにも力を入れたい。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* </div> */}
         </div>
       </section>
       {/* <section className="skills" id="skills">
