@@ -11,7 +11,10 @@ export default () => {
       <Header />
       <section className="hero">
         <figure>
-          <img src="/images/computer.jpg" alt="" />
+          <img
+            src="https://source.unsplash.com/95YRwf6CNw8/1920x1280"
+            alt="image"
+          />
         </figure>
         <div className="catch">
           <h1>
@@ -26,68 +29,34 @@ export default () => {
           <h2 className="bar">About</h2>
           <div className="container mx-auto px-4">
             <div className="inline-grid max-w-xs max-w-xs bg-green-800 rounded-lg border shadow-lg pb-6 lg:pb-0">
-              <div className="w-full">
+              <div className="w-full p-2">
                 <img
-                  src="https://source.unsplash.com/nqEJ548Hqjs/800x600"
+                  src="https://source.unsplash.com/asviIGR3CPE/800x600"
                   alt="image"
                   className="h-64 lg:h-full object-cover object-center w-full"
                 ></img>
               </div>
 
-              <div className="w-full p-4">
+              <div className="w-full px-4">
                 <div className="inline-grid">
                   <p className="work-sans font-semibold text-xl text-white text-left">
                     miruo
                   </p>
                   <p className="raleway text-sm my-4 text-white text-left">
-                    SIからWebエンジニアへの転職を目指しているものです。最近翻訳からですがOSS活動をはじめました。
-                    今はフロントメインですが、バックエンドにも力を入れたい。
+                    新卒で入社したSI系エンジニア4年目です。Excelドキュメント中心の業務から離れるためにWebエンジニアへの転職を目指しています。
+                    今はReact+RailsでWebアプリケーションを開発中。
+                    <br />
+                    主にフロントエンドを学んでいますが、バックエンドにも力を入れたい。最近は翻訳中心でOSS活動もやっています。
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          {/* </div> */}
         </div>
       </section>
-      {/* <section className="skills" id="skills">
-        <div className="container">
-          <h2 className="bar">Skills</h2>
-          <div className="details">
-            <div className="detail">
-              <h3>JavaScript</h3>
-              <p>
-                一番使っている言語です。
-                <br />
-                今はフロントメインですが、バックエンドにも力を入れたい。
-                <br />
-                (使用フレームワーク) React.js
-              </p>
-            </div>
-            <div className="detail">
-              <h3>Python</h3>
-              <p>
-                一番好きな言語です。
-                <br />
-                そろそろプロジェクトを作りたいところです。
-                <br />
-                標準関数を勉強中。
-              </p>
-            </div>
-            <div className="detail">
-              <h3>SQL</h3>
-              <p>
-                Oracle、SQLServerの実務経験あり。
-                <br />
-                基本は十分なレベルですが、初期構成はやったことはありません。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section className="skill" id="skills">
         <div className="container">
-          <h2 className="bar">Programming Language Skills</h2>
+          <h2 className="bar">Programming Skills</h2>
           <div className="details">
             <div className="md:px-16 md:w-full">
               <div className="shadow overflow-hidden rounded border-b border-gray-200">
@@ -135,7 +104,7 @@ export default () => {
                     </tr>
                     <tr>
                       <td className="text-left py-3 px-4">Ruby</td>
-                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">★★★☆☆</td>
                       <td className="text-left py-3 px-4">Ruby on Rails</td>
                       <td className="py-3 px-4">×</td>
                       <td className="py-3 px-4">0.5 year</td>
@@ -149,10 +118,74 @@ export default () => {
                     </tr>
                     <tr>
                       <td className="text-left py-3 px-4">VB.NET</td>
-                      <td className="text-left py-3 px-4">★★★☆☆</td>
+                      <td className="text-left py-3 px-4">★★★★☆</td>
                       <td className="text-left py-3 px-4">-</td>
                       <td className="py-3 px-4">●</td>
                       <td className="py-3 px-4">1.2 year</td>
+                    </tr>
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">Oracle DB</td>
+                      <td className="text-left py-3 px-4">★★★★☆</td>
+                      <td className="text-left py-3 px-4">Spring Framework</td>
+                      <td className="py-3 px-4">●</td>
+                      <td className="py-3 px-4">1 year</td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">SQL Server</td>
+                      <td className="text-left py-3 px-4">★★★★☆</td>
+                      <td className="text-left py-3 px-4">-</td>
+                      <td className="py-3 px-4">●</td>
+                      <td className="py-3 px-4">0.85 year</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div className="details">
+            <div className="md:px-16 md:w-full my-4">
+              <div className="shadow overflow-hidden rounded border-b border-gray-200 w-full">
+                <table className="bg-white">
+                  <thead className="bg-green-800 text-white">
+                    <tr>
+                      <th className="text-left py-3 px-4 uppercase font-semibold w-1/3">
+                        Star Rating
+                      </th>
+                      <th className="text-left py-3 px-4 uppercase font-semibold">
+                        Level
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700">
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">★☆☆☆☆</td>
+                      <td className="text-left py-3 px-4">
+                        少しかじった程度のレベル
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">★★☆☆☆</td>
+                      <td className="text-left py-3 px-4">
+                        基礎文法は一通り理解しているレベル
+                      </td>
+                    </tr>
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">★★★☆☆</td>
+                      <td className="text-left py-3 px-4">
+                        本などを参考にしながら1本オリジナルアプリケーションを作成出来るレベル
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="text-left py-3 px-4">★★★★☆</td>
+                      <td className="text-left py-3 px-4">
+                        公式ドキュメントあれば仕事出来るレベル
+                      </td>
+                    </tr>
+                    <tr className="bg-gray-100">
+                      <td className="text-left py-3 px-4">★★★★★</td>
+                      <td className="text-left py-3 px-4">
+                        3年以上実務で継続使用していて経験豊富
+                      </td>
                     </tr>
                   </tbody>
                 </table>
