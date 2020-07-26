@@ -14,10 +14,6 @@ body {
 body,
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 p,
 ul,
 figure {
@@ -66,14 +62,6 @@ svg {
   width: 1px;
 }
 
-.header .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 134px;
-  text-align: center;
-}
-
 .nav ul {
   display: flex;
   justify-content: center;
@@ -89,12 +77,6 @@ svg {
 @media (min-width: 768px) {
   .nav ul {
     margin-top: 0;
-  }
-  .header .container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
   }
 }
 
@@ -129,15 +111,6 @@ svg {
 }
 .hero .catch p {
   font-size: 10px;
-}
-
-.hero .wave {
-  position: absolute;
-  right: 0;
-  bottom: -10px;
-  left: 0;
-  margin: auto;
-  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -235,10 +208,6 @@ svg {
   bottom: 6px;
 }
 
-.content .bar::before {
-  width: 200px;
-}
-
 @media (min-width: 768px) {
   .bar {
     max-width: 375px;
@@ -249,16 +218,6 @@ svg {
   .bar::before,
   .bar::after {
     width: 73%;
-  }
-
-  .content .bar {
-    max-width: none;
-  }
-  .content .bar::before {
-    width: 312px;
-  }
-  .content .bar::after {
-    width: 81%;
   }
 }
 
