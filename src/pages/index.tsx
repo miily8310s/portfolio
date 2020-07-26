@@ -8,6 +8,8 @@ import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons"
 export default () => {
   return (
     <div>
+      <meta charSet="utf-8" />
+      <title>Miruo's Portfolio</title>
       <Header />
       <section className="hero">
         <figure>
